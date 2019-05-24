@@ -5,8 +5,11 @@ class Chart extends Component {
     constructor(props) {
         super(props);
         this.state= {
+            //our chart data
             chartData: {
+                //our chart labels
                 labels: ['Egy','USA'],
+                //our chart data sets
                 datasets: [
                     {
                         label: 'sports',
